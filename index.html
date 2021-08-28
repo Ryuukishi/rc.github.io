@@ -3,26 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" content="initial-scale=1">
-    <title>Richard Cho &mdash; Resume</title>
+    <title>Richard Cho</title>
     <link rel="stylesheet" href="styles.css">
     <!-- Quicksand font from Google Fonts -->
     <!-- https://fonts.google.com/share?selection.family=Quicksand:wght@500 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">                                                     
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <!-- Adding a like to the Font Awesome Icon Library for some SNS icons e.g. GitHub and LinkedIn -->
+    <!-- The icons are licensed under the Creative Commons Attribution 4.0 International license -->
+    <!-- https://fontawesome.com/license -->
+    <script src="https://kit.fontawesome.com/2957ab1fbb.js" crossorigin="anonymous"></script>
+
 </head>
 <body class="landing">
-    <div class="landing_left">
+    <!-- <div class="landing_left">
         <img class="landing_profile" src="profile.jpg">
-    </div>
+    </div> -->
+    <nav class="nav_profile">
+        <h1>Richard Cho</h1>
+        <img class="profile" src="profile.jpg" alt="profile picture"> 
+        <p class="jobtitle" style="white-space: pre-line">Software Engineering Student
+            Coder Academy</p>
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul class="no-bullet" style="padding-inline-start: 0px">
+                <li>Python</li>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>Markdown</li>
+                <li>Git/GitHub</li>
+                <li>Vim</li>
+                <li>Japanese</li>
+                <li>Teaching</li>
+                <li>Photography</li>
+                <li>Editing</li>
+            </ul>
+        </div>
+        <div class="software">
+            <h2>Software</h2> 
+            <ul class="no-bullet" style="padding-inline-start: 0px">
+                <li>VS Code</li>
+                <li>Typora</li>
+                <li>Terminal</li>
+                <li>Chrome</li>
+                <li>Lightroom</li>
+                <li>Linux</li>
+                <li>Windows</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h2>Contact</h2>
+            <div class="nav_github">
+                <a href="https://github.com/Ryuukishi">
+                <i class="fab fa-github"></i>
+                Github
+                </a>
+            </div>
+            <div class="nav_fb">
+                <a href="https://www.facebook.com/richarddcho/">
+                <i class="fab fa-facebook"></i>
+                facebook
+                </a>
+            </div>
+            <div class="nav_linkedin">
+                <a href="https://www.linkedin.com/in/richard-cho-15708687">
+                <i class="fab fa-linkedin"></i>
+                LinkedIn
+                </a>
+            </div>
+            <div class="nav_resume">
+                <a href="resume.pdf">
+                <i class="fas fa-user-graduate"></i>
+                Resume
+                </a>
+            </div>
+            <div class="nav_telephone">
+                <a href="tel:(02)88196298">
+                <i class="fas fa-phone-square-alt"></i> 
+                Phone
+                </a>
+            </div>     
+            <div class="nav_email">
+                <a href="mailto:cas0220113@coderacademy.edu.au">
+                <i class="far fa-paper-plane"></i>
+                Email
+                </a>
+            </div>
+        </div>
+    </nav>
     <div class="landing_right">
-        <nav class="landing_nav">
+        <div class="landing_intro">
+            <h1 class="landing_name" style="white-space: pre-line">Richard Cho</h1>
+            <!-- <p class="landing_description">Software Engineering Student</p>
+            <p class="landing_description">Coder Academy</p> -->
+            <h2 class="landing_about">About Me</h2>
+            <p class="landing_bio" style="white-space: pre-line">My name is Richard and I'm a software engineering student based in Sydney. 
+            I have a background in accounting and teaching, and in my previous life,
+            I was an English Teacher in Japan. I lived in a small, rural countryside town in 
+            Miyagi Prefecture for 5 years. Wanting a career change, I decided to move 
+            back home and start a coding bootcamp to upskill and start my 
+            new career as a software engineer.
+             </p>
             
+        </div>
+        <nav class="landing_nav">
+            <ul class="page_links" style="padding-inline-start: 0px">
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
         </nav>
-        <h1 class="landing_name">Richard Cho</h1>
-        <p class="landing_description">Software Engineer</p>
-        <p class="landing_description">Code Academy</p>
-        <h2 class="landing_about">About Me</h2>
-        <p class="landing_bio">My name is Richard and I'm a software engineering student based in Sydney, Australia.</p>
     </div>
 </body>

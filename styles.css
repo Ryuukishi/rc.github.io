@@ -33,16 +33,30 @@ body {
 	max-height: 100%;
 }
 
+.jobtitle {
+    font-size: 1.5rem;
+    margin: 0px;
+}
+
 .landing_right {
-    float: right;
-    margin-right: auto;
-    margin-inline-start: auto;asd
+    margin: 1rem;	
+    /* margin-top: 1rem; */
+    /* margin-inline-start: auto; */
 }
 
 /* by using rem units, if a user increases their font size, the integrity of the layout will be preserved, and the text won’t get squashed up in a rigid space meant for smaller text. */
-nav {
-    display: flex;
+.nav_profile {
+    /* display: flex; */
     flex-flow: column;
+    /* align-items: normal; */
+    text-align: center;
+    height: 100%;
+    background-color: rgb(96, 177, 142);
+    color: whitesmoke
+}
+.nav_profile_side {
+    /* display: flex; */
+    /* flex-flow: column; */
     margin-left: auto;
     /* padding: 0.25rem; */
     width: 20rem;
@@ -52,14 +66,37 @@ nav {
     /* background-color: rgb(75, 119, 141) */
     color: whitesmoke
 }
+.landing_nav {
+    flex-flow: row; 
+    margin-top: 2rem;
+    /* margin: 0px 0px 0px 0px; */
+}
+.page_links>li{
+    list-style-type: none;
+    text-decoration: underline;
+    display: inline-flex;
+    /* position: relative;  */
+    /* flex-flow: row wrap; */
+    /* background-color: rgb(170, 228, 228); */
+    /* color: black; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px; */
+    margin: 2px;
+    padding: 3px;
+    /* padding: 0px 0px 0px 0px;     */
+    /* padding-inline-start: 1  0px; */
+}
+
 .profile {
     border-radius: 50%;
-    width: 40%;
+    width: 30%;
     /* margin-top: 1rem; */
     margin-left: auto;
     margin-right: auto;
-
-    /* border: 0.3rem solid rgb(64, 192, 117); */
 }
 /* 
 div.skills, div.software {
@@ -73,8 +110,8 @@ div.skills:first-line, div.software:first-line, div.contact:first-line {
 .no-bullet>li{
     list-style-type: none;
     display: inline-flex;
-    position: relative; 
-    flex-flow: row wrap;
+    /* position: relative;  */
+    /* flex-flow: row wrap; */
     background-color: rgb(170, 228, 228);
     color: black;
     /* margin-left: auto; */
@@ -96,7 +133,10 @@ div.skills:first-line, div.software:first-line, div.contact:first-line {
 } */
 
 .contact>div{
-    margin: 1rem;
+    /* float: top; */
+    margin: 0rem 1rem 1rem 1rem;
+    display: inline-flex;
+    flex-flow: row wrap;
 }
 
 a, a:visited, a:active {
@@ -108,24 +148,11 @@ a:hover {
        color:rgb(89, 122, 124)
    }
 
-.boxes {
+.navbar_top {
     display: flex;
-    flex-flow: row wrap;
-    /* flex-basis: 100%; */
-    justify-content: start;
-    /* align-content:space-between; */
-    /* justify-content: space-evenly; */
-}
-.box1 {
-       width: 30rem;
-       height: 15rem;
-       background-color: aqua;
-       text-align: center;
-   }
-
-.box2 {
-    width: 30rem;
-    height: 15rem;
-    background-color: aquamarine;
-    text-align: center;
+    margin-left:auto;
+    margin-top: 2rem;
+    margin-right: 5rem;
+    /* align-items: center; */
+    justify-items: center;
 }
