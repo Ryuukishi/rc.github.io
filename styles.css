@@ -1,15 +1,17 @@
 html {
     font-family: 'Quicksand', sans-serif;
+    background-color: rgb(252, 244, 244);
 }
 
 body {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     align-content: center;
     justify-content: start;
     align-items: center;	
 	max-width: 100%;
 	max-height: 100%;
+    margin: 0px;
 }
 
 .landing_left {
@@ -22,11 +24,10 @@ body {
 	max-height: 100%;
     align-items: center;
     justify-content: center;
-    background-color: rgb(96, 177, 142);
+    /* background-color: rgb(96, 177, 142); */
 }
 
 .landing_profile {
-    /* display: inline-flex; */
     width: 416px;
     height: 416px;
     max-width: 100%;
@@ -39,20 +40,33 @@ body {
 }
 
 .landing_right {
-    margin: 1rem;	
-    /* margin-top: 1rem; */
-    /* margin-inline-start: auto; */
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.landing_about {
+    text-align: center;
+}
+
+/* Added media query to avoid text overflowing */
+
+@media screen and (min-width: 1024px) {
+    .landing_right {
+        max-width: 40%;
+    }
 }
 
 /* by using rem units, if a user increases their font size, the integrity of the layout will be preserved, and the text won’t get squashed up in a rigid space meant for smaller text. */
 .nav_profile {
     /* display: flex; */
     flex-flow: column;
-    /* align-items: normal; */
     text-align: center;
     height: 100%;
-    background-color: rgb(96, 177, 142);
-    color: whitesmoke
+    /* background-color: rgb(96, 177, 142);
+    color: whitesmoke */
 }
 .nav_profile_side {
     /* display: flex; */
@@ -67,41 +81,27 @@ body {
     color: whitesmoke
 }
 .landing_nav {
+    margin-bottom: 2rem;
+    display: flex;
     flex-flow: row; 
-    margin-top: 2rem;
-    /* margin: 0px 0px 0px 0px; */
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 .page_links>li{
     list-style-type: none;
     text-decoration: underline;
     display: inline-flex;
-    /* position: relative;  */
-    /* flex-flow: row wrap; */
-    /* background-color: rgb(170, 228, 228); */
-    /* color: black; */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    /* margin-top: 2px;
-    margin-bottom: 2px;
-    margin-left: 2px;
-    margin-right: 2px; */
     margin: 2px;
     padding: 3px;
-    /* padding: 0px 0px 0px 0px;     */
-    /* padding-inline-start: 1  0px; */
 }
 
 .profile {
     border-radius: 50%;
-    width: 30%;
-    /* margin-top: 1rem; */
+    width: 25%;
     margin-left: auto;
     margin-right: auto;
 }
-/* 
-div.skills, div.software {
-
-}  */
 
 div.skills:first-line, div.software:first-line, div.contact:first-line {
     text-decoration: underline;
@@ -110,33 +110,16 @@ div.skills:first-line, div.software:first-line, div.contact:first-line {
 .no-bullet>li{
     list-style-type: none;
     display: inline-flex;
-    /* position: relative;  */
-    /* flex-flow: row wrap; */
     background-color: rgb(170, 228, 228);
     color: black;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    /* margin-top: 2px;
-    margin-bottom: 2px;
-    margin-left: 2px;
-    margin-right: 2px; */
     margin: 2px;
     padding: 3px;
-    /* padding: 0px 0px 0px 0px;     */
-    /* padding-inline-start: 1  0px; */
 }
 
-/* @media (max-width: 1024px) {
-    nav a;
-    float: none;
-    width: 100%;
-} */
-
-.contact>div{
-    /* float: top; */
-    margin: 0rem 1rem 1rem 1rem;
+.contact>div {
     display: inline-flex;
     flex-flow: row wrap;
+    margin: 0.5rem;
 }
 
 a, a:visited, a:active {
@@ -148,11 +131,171 @@ a:hover {
        color:rgb(89, 122, 124)
    }
 
-.navbar_top {
-    display: flex;
-    margin-left:auto;
-    margin-top: 2rem;
-    margin-right: 5rem;
-    /* align-items: center; */
-    justify-items: center;
+header {
+    font-size: 3rem;
+    text-align: center;
 }
+
+.header_title {
+    color:orangered
+}
+.blog {
+    display: flex;
+    flex-flow: row wrap;    
+    /* width: 100%;
+    height: 100%; */
+    /* outline: 5px solid peru; */
+}
+.blog_layout {
+    display: flex       ;
+    flex-flow: column wrap;   
+    padding: 2rem 2rem 2rem 2rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+article {
+    margin: 2rem;
+    max-width: 100%;
+}
+
+.blog_heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color:orangered;
+}
+
+article > span.blog_heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color:orangered;
+}
+
+.blog_content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 1rem;
+}
+
+.blog_img {
+    max-width: 50%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.date, .employer {
+    color:orangered;
+
+}
+
+.history {
+    display: flex;
+    flex-flow: row wrap;    
+    /* width: 100%;
+    height: 100%; */
+    outline: 5px solid peru;
+}
+
+.history_layout {
+    display: flex;
+    flex-flow: column wrap;   
+    /* padding: 2rem 2rem 2rem 2rem;
+    margin-left: 20rem;
+    margin-right: 20rem; */
+    outline: 5px solid palegreen;
+}
+
+.history_container {
+    display: flex;
+    flex-direction: row wrap;
+    outline: 5px solid blue;
+}
+
+.history_dates {
+    margin: 2rem;
+    outline: 5px solid red;
+}
+
+.history_job {
+    margin: 2rem;
+    outline: 5px solid yellow;
+}
+
+
+/* Media query to remove padding and margin so the blog posts can expand when zoomed in*/
+
+@media screen and (max-width: 1400px) {
+    .blog_layout {
+        padding: 0rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .history_layout {
+        padding: 0rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    article {
+        margin: 0.5rem;
+    }
+}
+
+.gallery_box {
+
+}
+.gallery_img {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.image_box {
+    display: flex;
+    flex-flow: column wrap;
+    width: 500px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+span > img {
+    border-radius: 10px;
+    max-width: 50%;
+    margin: 2rem;
+}
+
+
+
+/* .hover {
+    display: none;
+    width: 6rem;
+    height: 4rem;
+    background-color: darkslategray;
+} */
+
+span > img:hover {
+    border-radius: 0px;
+    max-width: 100%;
+    /* margin: 2rem;
+     */
+}
+
+ .blog_img {
+
+}
+
+}
+
+@media screen and (max-width: 1400px) {
+    .gallery_img {
+        margin: 0.1rem;
+        max-width: 100%;
+    }
