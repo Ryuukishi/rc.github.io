@@ -182,7 +182,7 @@ article > span.blog_heading {
 }
 
 .blog_img {
-    max-width: 50%;
+    max-width: 100%;
     margin-top: 2rem;
     margin-bottom: 1rem;
     margin-left: auto;
@@ -190,7 +190,6 @@ article > span.blog_heading {
 }
 .date, .employer {
     color:orangered;
-
 }
 
 .history {
@@ -226,7 +225,6 @@ article > span.blog_heading {
     outline: 5px solid yellow;
 }
 
-
 /* Media query to remove padding and margin so the blog posts can expand when zoomed in*/
 
 @media screen and (max-width: 1400px) {
@@ -246,9 +244,6 @@ article > span.blog_heading {
     }
 }
 
-.gallery_box {
-
-}
 .gallery_img {
     display: flex;
     flex-flow: row wrap;
@@ -256,6 +251,15 @@ article > span.blog_heading {
     align-items: center;
     justify-content: center;
 }
+
+/* .blog_image {
+    display: flex;
+    flex-flow: column wrap;
+    width: 1000px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+} */
 
 .image_box {
     display: flex;
@@ -266,20 +270,11 @@ article > span.blog_heading {
     justify-content: center;
 }
 
-span > img {
+span > img.gallery_img {
     border-radius: 10px;
     max-width: 50%;
     margin: 2rem;
 }
-
-
-
-/* .hover {
-    display: none;
-    width: 6rem;
-    height: 4rem;
-    background-color: darkslategray;
-} */
 
 span > img:hover {
     border-radius: 0px;
@@ -287,13 +282,6 @@ span > img:hover {
     /* margin: 2rem;
      */
 }
-
- .blog_img {
-
-}
-
-}
-
 @media screen and (max-width: 1400px) {
     .gallery_img {
         margin: 0.1rem;
