@@ -282,6 +282,17 @@ span > img:hover {
     /* margin: 2rem;
      */
 }
+
+		
+.fancy_list > li::before {
+	content: "\12400";
+	color: orangered;
+}
+
+.fancy_list {
+	list-style-type: none;
+	{
+
 @media screen and (max-width: 1400px) {
     .gallery_img {
         margin: 0.1rem;
