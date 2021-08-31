@@ -88,6 +88,12 @@ body {
     align-content: center;
     justify-content: center;
 }
+
+.landing_bio {
+    /* padding-bottom: 4rem; */
+}
+
+
 .page_links>li{
     list-style-type: none;
     text-decoration: underline;
@@ -120,6 +126,11 @@ div.skills:first-line, div.software:first-line, div.contact:first-line {
     display: inline-flex;
     flex-flow: row wrap;
     margin: 0.5rem;
+    padding-bottom: 3rem;
+}
+
+.copyright {
+    padding-bottom:
 }
 
 a, a:visited, a:active {
@@ -137,7 +148,7 @@ header {
 }
 
 .header_title {
-    color:orangered
+    color:orangered;
 }
 .blog {
     display: flex;
