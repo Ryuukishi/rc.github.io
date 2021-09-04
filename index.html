@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width" content="initial-scale=1">
-        <title>Richard Cho</title>
-        <link rel="stylesheet" href="styles.css" integrity="sha256-BTlbWeONjynjaYxM7n0fGwNqnIoxU8eU0l6u1TrsdX0=" crossorigin="anonymous">
-		<link rel="icon" href="icon.png" type="type/png">
-        <!-- Quicksand font from Google Fonts -->
-        <!-- https://fonts.google.com/share?selection.family=Quicksand:wght@500 -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">                                                     
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-        <!-- Adding a like to the Font Awesome Icon Library for some SNS icons e.g. GitHub and LinkedIn -->
-        <!-- The icons are licensed under the Creative Commons Attribution 4.0 International license -->
-        <!-- https://fontawesome.com/license -->
-        <script src="https://kit.fontawesome.com/2957ab1fbb.js" crossorigin="anonymous"></script>
-    </head>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<title>Richard Cho</title>
+	<link rel="stylesheet" href="styles.css">
+    <!-- R3 Component 1: My initials are displayed next to the page's title in a browser tab as a favicon. The black/red color scheme reflects the colors I've used in other parts of the website. -->
+	<link rel="icon" href="icon.png" type="type/png">
+	<!-- Quicksand font from Google Fonts -->
+	<!-- https://fonts.google.com/share?selection.family=Quicksand:wght@500 -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">                                                     
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+	<!-- Adding a like to the Font Awesome Icon Library for some SNS icons e.g. GitHub and LinkedIn -->
+	<!-- The icons are licensed under the Creative Commons Attribution 4.0 International license -->
+	<!-- https://fontawesome.com/license -->
+	<script src="https://kit.fontawesome.com/2957ab1fbb.js" crossorigin="anonymous"></script>
+</head>
 <body>
     <div class="header_top">
         <header>
             Richard Cho
         </header>
 	</div>
-    <nav class="nav_profile">
+    <!-- R2 Component 1: Menu with links to other pages. Each link is presented as an unordered list (with list-style-type set to none) and underlined. -->
+    <main class="nav_profile">
         <nav class="landing_nav">
             <ul class="page_links" style="padding-inline-start: 0px">
                 <li><a href="#">Home</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="history.html">History</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
-                <!-- <li><a href="about.html">About Me</a></li> -->
             </ul>
         </nav>
-        <img class="profile" src="profile.jpg" alt="profile picture"> 
+        <!-- R3 Component 2: My profile picture is displayed on the landing page with a rounded border which is achieved uding CSS (refer to styles.css -->
+        <img class="profile" src="profile.jpg" alt="Richard Cho profile picture"> 
         <p class="jobtitle" style="white-space: pre-line">Software Engineering Student
             Coder Academy</p>
+        <!-- R2 Component 2: Relevant skills and software are listed. The items are presented as an unordered list (with list-style-type set to none) and the list items are displayed inside colored boxes to make them stand out. -->
         <div class="skills">
             <h2>Skills</h2>
             <ul class="no-bullet" style="padding-inline-start: 0px">
@@ -78,6 +81,7 @@
                  </p>
             </div>
         </div>
+        <!-- R3 Component 3: SNS, contact info, etc are displayed using icons from Font Awesome. When a user hovers over the icons, they change color. -->
         <div class="contact">
             <h2>Contact</h2>
             <div class="nav_github">
@@ -117,8 +121,9 @@
                 </a>
             </div>
         </div>
-          <div class="copyright">
-                Richard Cho &copy; 2021
-          </div>
-  </nav>
+  </main>
+<footer class="copyright">
+Richard Cho &copy; 2021
+</footer>
 </body>
+</html>

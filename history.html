@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" content="initial-scale=1">
+    <meta name="viewport" content="width=device-width initial-scale=1">
     <title>History</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">	
 	<link rel="icon" href="icon.png" type="type/png">
     <!-- Quicksand font from Google Fonts -->
     <!-- https://fonts.google.com/share?selection.family=Quicksand:wght@500 -->
@@ -22,7 +22,7 @@
 <body>
     <div class="header_top">
         <header>
-            Richard Cho / <span class=header_title>History</span>
+            Richard Cho / <span class="header_title">History</span>
         </header>
     </div>
     <div class="navbar_top">
@@ -35,19 +35,16 @@
             </ul>
         </nav>
     </div>
-    <main class="blog">
-        <div class="blog_layout">
-
-            <article><span class="blog_heading">Software Engineering Student</span></a>
-                <span class="employer"><p><a href="https://www.coderacademy.edu.au/">Coder Academy</a></p></span>
-                <time class="date"><p>2021 - Current</p></time>
+    <!-- R2 Component 4: List of employment history including: job title, name of employer, month and year of employment, list of duties/responsibilities. Clicking on the employer's name will take you to their homepage. List of duties are displayed as an unordered list, however uses "𒐀" as the list style instead of the usual default.-->
+    <main class="history">
+        <div class="history_layout">
+            <article><h2 class="history_heading">Software Engineering Student</h2>
+                <p><span class="employer"><a href="https://www.coderacademy.edu.au/">Coder Academy</a></span></p>
+                <p>2021 - Current</p>
             </article>
-
-            <article><span class="blog_heading">Teacher</span></a>
-                <span class="employer"><p><a href="http://jetprogramme.org/en/">JET Programme</a></p></span>
-                <time class="date"><p>2016 - 2021</p></time>
-                <span>
-                    <p>
+            <article><h2 class="history_heading">Teacher</h2>
+                <p><span class="employer"><a href="http://jetprogramme.org/en/">JET Programme</a></span></p>
+                <p>2016 - 2021</p>
                         <ul class="fancy_list">
                             <li>Appointed as recruiter and interviewer for junior high school study abroad candidates. Responsible for creating interview criteria and questions, vetting candidates, providing feedback on the candidates’ performances to supervisors, and advising supervisors regarding which candidates exhibited interest and drive to improve.</li>
                             <li>Provided helpful instruction on the English language and the skills required to master it to more than 1,000 students in local junior high and elementary schools.</li>
@@ -62,30 +59,22 @@
                             <li>Appointed as the main translator for the 2021 city-wide English curriculum for elementary school 1st and 2nd grade (above).</li>
                             <li>Translated and edited a total of 24 pages including detailed lesson plans for current and future ALTs to use when lesson-planning with Japanese homeroom teachers.</li>
                         </ul>
-                    </p>
-                </span>
             </article>
             <article>
-                <span class="blog_heading">Environmental Grants Administrator</span>
-                <span class="employer"><p><a href="https://www.environment.nsw.gov.au/funding-and-support/nsw-environmental-trust">NSW Environmnetal Trust</a></p></span>
-                <time class="date"><p>2015 - 2016</p></time>
-                <span>
-                    <p>
-                        <ul class="fancy_list">
+                <h2 class="history_heading">Environmental Grants Administrator</h2>
+                <p><span class="employer"><a href="https://www.environment.nsw.gov.au/funding-and-support/nsw-environmental-trust">NSW Environmnetal Trust</a></span></p>
+                <p>2015 - 2016</p>
+						<ul class="fancy_list">
                             <li>Managed funding for several contestable grants as part of NSW's "Waste Less, Recycle More" initiative.</li>
                             <li>Assessed grant applications to ensure they met the relevant standards and requirements</li>
                             <li>Liaised with local councils, NPOs and private industries</li>
                             <li>Assessed key project milestones to ensure successful delivery of the project outcomes</li>
                             <li>Aided in developing performance measures to track the progress of the projects</li>
                         </ul>
-                    </p>
-                </span>
             </article>
-            <article><span class="blog_heading">PASS Facilitator</span>
-                <span class="employer"><a href="https://www.westernsydney.edu.au/"><p>Western Sydney University</a></p></span>
-                <time class="date"><p>2013 - 2015</p></time>
-                <span>
-                    <p>
+            <article><h2 class="history_heading">PASS Facilitator</h2>
+                <p><span class="employer"><a href="https://www.westernsydney.edu.au/">Western Sydney University</a></span></p>
+                <p>2013 - 2015</p>
                         <ul class="fancy_list">
                             <li>Helped students learn the course content while integrating relevant and practical study skills</li>
                             <li>Create engaging learning activities for students</li>
@@ -93,9 +82,11 @@
                             <li>Create a weekly workshop plan</li>
                             <li>Create teaching materials including worksheets and practice exam papers.</li>
                         </ul>
-                    </p>
             </article>
         </div>
     </main>
+<footer class="copyright">
+Richard Cho &copy; 2021
+</footer>
 </body>
 </html>
