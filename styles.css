@@ -59,7 +59,7 @@ body {
     }
 }
 
-/* by using rem units, if a user increases their font size, the integrity of the layout will be preserved, and the text won’t get squashed up in a rigid space meant for smaller text. */
+/* by using rem units, if a user increases their font size, the integrity of the layout will be preserved, and the text won’t feel squashed. */
 .nav_profile {
     /* display: flex; */
     flex-flow: column;
@@ -147,10 +147,7 @@ header {
 }
 .blog, .history {
     display: flex;
-    flex-flow: row wrap;    
-    /* width: 100%;
-    height: 100%; */
-    /* outline: 5px solid peru; */
+    flex-flow: row wrap;
 }
 .blog_layout, .history_layout {
     display: flex       ;
