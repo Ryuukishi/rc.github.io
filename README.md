@@ -1,13 +1,5 @@
 # T1A2 - Portfolio
 
-- [T1A2 - Portfolio](#t1a2---portfolio)
-  * [Links](#links)
-  * [Purpose and Target Audience](#Purpose and Target Audience)
-  * [Functionality and Features](#Functionality and Features)
-  * [Sitemap](#sitemap)
-  * [Screenshots](#screenshots)
-  * [Tech Stack](#tech-stack)
-
 ## Links
 
 - [GitHub Repository](https://github.com/Ryuukishi/rc.github.io)
