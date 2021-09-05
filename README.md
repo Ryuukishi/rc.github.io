@@ -51,7 +51,7 @@ Home
 
 ## Screenshots
 
-[^1]: [![Responsive Design](screenshots/responsive.pngl)](screenshots/responsive.webm "Responsive Design")
+[^1]:Responsive Design [![Responsive Design](screenshots/responsive.gif)]
 
 
 
