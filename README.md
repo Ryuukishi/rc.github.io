@@ -1,10 +1,6 @@
 [TOC]
 
-
-
 # T1A2 - Portfolio
-
-
 
 ## Links
 
@@ -12,19 +8,17 @@
 
 - [Portfolio website](https://ryuukishi.github.io/rc.github.io/)
 
-  
-
-## Purpose
+## Purpose & Target Audience
 
 The purpose of this website is to provide a platform for me to display relevant information about myself to anyone who visits my site — whether that be prospective employers, coworkers, friends and family or people who are just interested about me or what I do. The portfolio should inform the user about my work history, skills and also more personal information information such as hobbies and background. I can use this website to showcase and highlight projects I've been a part of and relevant skills/work experience that would help me in landing a job.
 
 ## Functionality / Features
 
 - Responsive design <sup id="a1">[1](#f1)</sup>
-- Favicon located on the browser tab [^2]
-- Convenient navigation menu located at the top of each page for easy access [^3]
-- Intuitive icons that link to various SNS pages in addition to contact info such as phone and email [^4]
-- Interactive gallery - photos expand in size when you hover over them [^5]
+- Favicon located on the browser tab <sup id="a2">[2](#f2)</sup>
+- Convenient navigation menu located at the top of each page for easy access <sup id="a3">[3](#f3)</sup>
+- Intuitive icons that link to various SNS pages in addition to contact info such as phone and email <sup id="a4">[4](#f4)</sup>
+- Interactive gallery - photos expand in size when you hover over them <sup id="a5">[5](#f5)</sup>
 
 ## Sitemap
 
@@ -47,20 +41,41 @@ Home
 +----Gallery
 ```
 
-
-
 ## Screenshots
 
-<b id="f1">1</b>[↩](#a1)  
+<b id="f1">1</b>[↩](#a1)  Responsive design
+
 ![Responsive Design](screenshots/responsive.gif)
 
 
 
 
 
-## Target Audience
+<b id="f2">2</b>[↩](#a2)  Favicon
+
+![Favicon](screenshots/favicon.png)
 
 
+
+
+
+<b id="f3">3</b>[↩](#a3)  Navigation menu
+![Navigation menu](screenshots/nav_menu.png)
+
+
+
+
+
+<b id="f4">4</b>[↩](#a4)  SNS/contact info icons
+![Icons](screenshots/sns_icons.png)
+
+
+
+
+
+<b id="f5">5</b>[↩](#a5)  Expanding gallery
+
+![Expanding gallery](screenshots/gallery.gif)
 
 
 
