@@ -2,8 +2,8 @@
 
 - [T1A2 - Portfolio](#t1a2---portfolio)
   * [Links](#links)
-  * [Purpose & Target Audience](#Purpose and Target Audience)
-  * [Functionality / Features](#Functionality and Features)
+  * [Purpose and Target Audience](#Purpose and Target Audience)
+  * [Functionality and Features](#Functionality and Features)
   * [Sitemap](#sitemap)
   * [Screenshots](#screenshots)
   * [Tech Stack](#tech-stack)
