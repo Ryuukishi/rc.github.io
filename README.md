@@ -20,7 +20,7 @@ The purpose of this website is to provide a platform for me to display relevant 
 
 ## Functionality / Features
 
-- Responsive design [^1]
+- Responsive design <sup id="a1">[1](#f1)</sup>
 - Favicon located on the browser tab [^2]
 - Convenient navigation menu located at the top of each page for easy access [^3]
 - Intuitive icons that link to various SNS pages in addition to contact info such as phone and email [^4]
@@ -51,7 +51,9 @@ Home
 
 ## Screenshots
 
-[^1]:Responsive Design [![Responsive Design](screenshots/responsive.gif)]
+<p id="f1">1</p> Responsive. [↩](#a1)
+
+Responsive Design [![Responsive Design](screenshots/responsive.gif)]
 
 
 
