@@ -39,6 +39,16 @@ Home
 +----Gallery
 ```
 
+## Tech Stack
+
+The website is written entirely in HTML/CSS although some 3rd-party resources are used including:
+
+- Google Fonts - Quicksand Font
+- Font Awesome Icon Library - used for the SNS/contact info icons located at the bottom of the homepage
+
+The entire website is hosted on GitHub pages which is ideal since I can push any commits to my GitHub repo and the website will be updated with those changes in a matter of seconds. Each HTML page has been validated using the W3C Validator to ensure the pages are error-free. 
+
+
 ## Screenshots
 
 <b id="f1">1</b>[↩](#a1)  Responsive design
@@ -77,12 +87,4 @@ Home
 
 
 
-## Tech Stack
-
-The website is written entirely in HTML/CSS although some 3rd-party resources are used including:
-
-- Google Fonts - Quicksand Font
-- Font Awesome Icon Library - used for the SNS/contact info icons located at the bottom of the homepage
-
-The entire website is hosted on GitHub pages which is ideal since I can push any commits to my GitHub repo and the website will be updated with those changes in a matter of seconds. Each HTML page has been validated using the W3C Validator to ensure the pages are error-free. 
 
