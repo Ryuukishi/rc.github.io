@@ -51,7 +51,7 @@ Home
 
 ## Screenshots
 
-[^1]: <video src="screenshots/responsive.webm"></video>
+[^1]: [![Responsive Design]({screenshots/responsive.pngl})]({screenshots/responsive.webm} "Responsive Design")
 
 
 
