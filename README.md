@@ -52,7 +52,7 @@ Home
 ## Screenshots
 
 <p id="f1">1</p>  
-[![Responsive Design](screenshots/responsive.gif)]
+![Responsive Design](screenshots/responsive.gif)
 
 
 
