@@ -51,6 +51,7 @@ Home
 
 ## Screenshots
 
+<b id="f1">1</b>  
 ![Responsive Design](screenshots/responsive.gif)
 
 
