@@ -51,7 +51,8 @@ Home
 
 ## Screenshots
 
-<p id="f1">1</p>  Responsive Design [![Responsive Design](screenshots/responsive.gif)[↩](#a1)
+<p id="f1">1</p>  
+Responsive Design [![Responsive Design](screenshots/responsive.gif)]
 
 
 
