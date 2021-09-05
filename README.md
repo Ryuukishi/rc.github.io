@@ -1,6 +1,5 @@
-[TOC]
-
 # T1A2 - Portfolio
+* [Links](#Links)
 
 ## Links
 
