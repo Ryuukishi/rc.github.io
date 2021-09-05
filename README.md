@@ -2,8 +2,8 @@
 
 - [T1A2 - Portfolio](#t1a2---portfolio)
   * [Links](#links)
-  * [Purpose & Target Audience](#Purpose & Target Audience)
-  * [Functionality / Features](#Functionality / Features)
+  * [Purpose & Target Audience](#Purpose and Target Audience)
+  * [Functionality / Features](#Functionality and Features)
   * [Sitemap](#sitemap)
   * [Screenshots](#screenshots)
   * [Tech Stack](#tech-stack)
@@ -14,11 +14,11 @@
 
 - [Portfolio website](https://ryuukishi.github.io/rc.github.io/)
 
-## Purpose & Target Audience
+## Purpose and Target Audience
 
 The purpose of this website is to provide a platform for me to display relevant information about myself to anyone who visits my site — whether that be prospective employers, coworkers, friends and family or people who are just interested about me or what I do. The portfolio should inform the user about my work history, skills and also more personal information information such as hobbies and background. I can use this website to showcase and highlight projects I've been a part of and relevant skills/work experience that would help me in landing a job.
 
-## Functionality / Features
+## Functionality and Features
 
 - Responsive design <sup id="a1">[1](#f1)</sup>
 - Favicon located on the browser tab <sup id="a2">[2](#f2)</sup>
